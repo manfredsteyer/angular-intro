@@ -1,8 +1,8 @@
 // src/app/flight-search/flight-search.component.ts
 
 import { Component, OnInit } from '@angular/core';
-import { Flight } from '../flight';
-import { FlightService } from '../flight.service';
+import { Flight } from 'src/app/flight';
+import { FlightService } from 'src/app/flight.service';
 
 @Component({
   selector: 'app-flight-search',

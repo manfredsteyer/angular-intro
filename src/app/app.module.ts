@@ -11,11 +11,9 @@ import { AboutComponent } from './about/about.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { RouterModule } from '@angular/router';
 import { APP_ROUTES } from './app.routes';
-import { FlightSearchComponent } from './flight-search/flight-search.component';
-import { FlightCardComponent } from './flight-card/flight-card.component';
-import { PassengerSearchComponent } from './passenger-search/passenger-search.component';
-import { FlightEditComponent } from './flight-edit/flight-edit.component';
+import { FlightCardComponent } from './flight-booking/flight-card/flight-card.component';
 import { FormsModule } from '@angular/forms';
+import { FlightBookingModule } from './flight-booking/flight-booking.module';
 
 @NgModule({
    imports: [
@@ -23,15 +21,12 @@ import { FormsModule } from '@angular/forms';
       HttpClientModule,
       BrowserModule,
       FormsModule,
+      FlightBookingModule,
    ],
    declarations: [
       AppComponent,
       SidebarComponent,
       NavbarComponent,
-      FlightSearchComponent,
-      FlightCardComponent,
-      PassengerSearchComponent,
-      FlightEditComponent,
       HomeComponent,
       AboutComponent,
       NotFoundComponent

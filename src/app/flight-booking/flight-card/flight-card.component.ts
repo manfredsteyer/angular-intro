@@ -1,7 +1,7 @@
 // src/app/flight-card/flight-card.component.ts
 
 import { Component, Input, Output, EventEmitter, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { Flight } from '../flight';
+import { Flight } from '../../flight';
 
 @Component({
   selector: 'flight-card',
