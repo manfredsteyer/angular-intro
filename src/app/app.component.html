@@ -1,0 +1,23 @@
+<!-- src/app/app.component.html -->
+
+<div class="wrapper">
+
+    <div class="sidebar" data-color="white" data-active-color="danger">
+        <app-sidebar-cmp></app-sidebar-cmp>
+    </div>
+
+    <div class="main-panel">
+        <app-navbar-cmp></app-navbar-cmp>
+
+        <div class="content">
+
+            <!-- Diese Zeile entfernen: -->
+            <!-- <app-flight-search></app-flight-search> -->
+
+            <!-- Diese Ziele hinzufügen: -->
+            <router-outlet></router-outlet>
+
+        </div>
+    </div>
+
+</div>
