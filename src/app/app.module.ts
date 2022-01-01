@@ -21,6 +21,8 @@ import { FlightBookingModule } from './flight-booking/flight-booking.module';
       HttpClientModule,
       BrowserModule,
       FormsModule,
+
+      // Feature-Module importieren
       FlightBookingModule,
    ],
    declarations: [

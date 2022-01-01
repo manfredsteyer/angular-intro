@@ -1,3 +1,5 @@
+// src/app/flight-booking/flight-booking.module.ts
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FlightSearchComponent } from './flight-search/flight-search.component';
